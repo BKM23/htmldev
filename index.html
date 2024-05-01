@@ -2,57 +2,231 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
+        <title>Jersey Store</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+        <style>
+            .active-link {
+                background-color: purple;
+                color: black;
+                padding: 15px;
+            }
+
+            /* hover only on the nav items */
+            .nav-item:hover {
+                background-color: white;
+                color: black;
+                padding: 8px;
+            }
+        </style>
     </head>
     <body >
-        <a href="index.html">Home</a> <a href="about.html">About</a> <a href="products.html">Products</a> <a href="services.html">Services</a> <a href="registration.html">Sign up</a> <a href="help.html">Help</a> <a href="subscription.html">Subscribe</a>
+        <div class="">
+            <!-- section for the navbar -->
+            <section class="row"> 
+                <div class="col-md-12">
+                    <nav class=" fixed-top navbar navbar-expand-lg bg-info navbar-light p-4">
+                        <a href="#" class="navbar-brand">Jersey Store <img src="images/jersey.png" height="40"
+                                width="40" alt=""></a>
+                        
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                            data-bs-target="#navbarcollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarcollapse">
+                            <div class="navbar-nav">
+                                <a href="index.html" class="nav-item nav-link">Home</a>  
+                                <a href="about.html" class="nav-item nav-link">About</a> 
+                                <a href="products.html" class="nav-item nav-link">Products</a>  
+                                <a href="services.html" class="nav-item nav-link">Services</a>  
+                                <a href="registration.html" class="nav-item nav-link">Sign up</a>  
+                                <a href="help.html" class="nav-item nav-link">Help</a>  
+                                <a href="subscription.html" class="nav-item nav-link">Subscribe</a>
 
-        <h1>Chapter One</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum consectetur, deleniti optio eveniet ea fuga non maiores, sequi excepturi cum voluptatem asperiores minima, molestiae libero. Assumenda aliquam facere id.</p>
+                            </div>
+                            <!-- search box -->
+                            
+                            <!-- nav item to the right -->
+                            <!-- <li class="nav-item"> -->
+                            
+                            <!-- </li> -->
+                        </div>
 
-        <h1>Chapter Two</h1>
-        <p style="text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates inventore, reprehenderit, aliquam consequatur in ratione natus dicta rem voluptate cupiditate fuga odit harum libero quo quae minima deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, temporibus perspiciatis ad maiores iure distinctio veritatis omnis voluptatum laborum repudiandae laudantium nobis voluptatibus officiis, vitae reprehenderit modi dolorum rerum velit.</p>
-        <!--Chapter 2 ends here-->
-        <img src="images/clock.jpg"
-        width="40%" alt="">
+                    </nav>
+                </div>
+            </section><br><br><br><br>
+                <!-- end of navbar -->
+            <!-- carousel -->
+            <section class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                        <!-- indicators -->
+                        <ol class="carousel-indicators">
+                            <li class="active" data-bs-target="#mycarousel" data-bs-slide-to="0"></li>
+                            <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#mycarousel" data-bs-slide-to="3"></li>
+                        </ol>
+                        <!-- carousel inner -contains carousel items -->
+                        <div class="carousel-inner">
+                            <!-- Carousel item 1 -->
+                            <div class="carousel-item active">
+                                <img src="images/nba jerseys.webp" class="w-100 l-60 d-block" alt="">
+                                <!-- carousel caption -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>NBA Jerseys available</h3>
+                                </div>
+                            </div>
+                            <!-- end of the first item -->
+                            <div class="carousel-item" data-bs-interval="1500">
+                                <img src="images/pl1.jpg" class="w-100 d-block" alt="">
+                                <!-- carousel caption -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>Premier League Jerseys for all</h3>
+                                    
+                                </div>
 
-        <table>
-            <tr>
-                <th>SN</th>
-                <th>Item Name</th>
-                <th>Quantity</th>
-                <th>Unit Price</th>
-                <th>Total Price</th>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td>Pen</td>
-                <td>300</td>
-                <td>10 ksh</td>
-                <td>3000</td>
-            </tr>
-            <tr>
-                <td>2.</td>
-                <td>Books</td>
-                <td>243</td>
-                <td>20 ksh</td>
-                <td>4860 ksh</td>
-            </tr>
-        </table>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1500">
+                                <img src="images/store retro.webp" class="w-100 d-block" alt="">
+                                <!-- carousel caption -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>Retro jerseys available</h3>
+                                    
+                                </div>
 
-        <ul>
-            <li>HTML</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-        </ul>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1500">
+                                <img src="images/intnl kits.jpg" class="w-100 d-block" alt="">
+                                <!-- carousel caption -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>International jerseys</h3>
+                                    
+                                </div>
 
-        <ol type="a" start="3">
-            <li>Yellow</li>
-            <li>Black</li>
-            <li>Red</li>
-            <li>White</li>
-        </ol>
+                            </div>
+
+                        </div>
+                        <!-- end of carousel inner -->
+                        <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev"><span
+                                class="carousel-control-prev-icon"></span></a>
+                        <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next"><span
+                                class="carousel-control-next-icon"></span></a>
+                    </div>
+
+                </div>
+        </div>
+        </div>
+        </section>
+        
+        <h1>Welcome to the official Jersey Store Website!!</h1>
+        <p>Here you can find and order the different jerseys that you may like</p>
+        <p>Here's a preview of what you can find here</p>
+        <br>
+        <h3>Premier League Jerseys</h3>
+        <section class="row text-center">
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/city home.jpeg" width="" height="240">
+                    <!-- card body -->
+                    <div class="card-body">    
+                    </div>
+                    <!-- end of body -->
+                    <div class="card-footer">
+                        <h4 class="text-primary">Manchester City</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/Liverpool.jpeg" class="img-fluid" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3 class="text-info"></h3>
+                        </div>
+                        <div class="card-text text-capitalize text-secondary">
+                            <p></p>
+                        </div>
+                        
+                    </div>
+                    <!-- end of body -->
+                    <div class="card-footer">
+                        <h4 class="text-primary">Liverpool</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/arsenal.jpeg" class="img-fluid" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3 class="text-primary"></h3>
+                        </div>
+                        <div class="card-text text-capitalize text-secondary">
+                            <p></p>
+                        </div>
+                        
+                    </div>
+                    <!-- end of body -->
+                    <div class="card-footer">
+                        <h4 class="text-primary">Arsenal</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/united.webp" class="img-fluid" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6 class="text-primary"></h6>
+                        </div>
+                        <div class="card-text text-capitalize text-secondary">
+                            
+                        </div>
+                        
+                    </div>
+                    <!-- end of body -->
+                    <div class="card-footer">
+                        <h4 class="text-primary">Manchester United</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/chelsea.jpeg" class="img-fluid" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3 class="text-primary"></h3>
+                        </div>
+                        <div class="card-text text-capitalize text-secondary">
+                            <p></p>
+                        </div>
+                        
+                    </div>
+                    <!-- end of body -->
+                    <div class="card-footer">
+                        <h4 class="text-primary">Chelsea</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/tottenham.jpeg" class="img-fluid" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3 class="text-primary"></h3>
+                        </div>
+                        <div class="card-text text-capitalize text-secondary">
+                            <p></p>
+                        </div>
+                        
+                    </div>
+                    <!-- end of body -->
+                    <div class="card-footer">
+                        <h4 class="text-primary">Tottenham</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

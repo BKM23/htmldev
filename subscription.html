@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscription</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+        <style>
+            .active-link {
+                background-color: purple;
+                color: black;
+                padding: 15px;
+            }
+
+            /* hover only on the nav items */
+            .nav-item:hover {
+                background-color: purple;
+                color: black;
+                padding: 15px;
+            }
+        </style>
 </head>
 <body>
-    <a href="index.html">Home</a> <a href="about.html">About</a> <a href="products.html">Products</a> <a href="services.html">Services</a> <a href="registration.html">Sign up</a> <a href="help.html">Help</a> <a href="subscription.html">Subscribe</a>
+    <div class="">
+        <!-- section for the navbar -->
+        <section class="row">
+            <div class="col-md-12">
+                <nav class=" fixed-top navbar navbar-expand-lg bg-info navbar-light p-4">
+                    <a href="#" class="navbar-brand">iBags Collects <img src="images/brand1.jpg" height="40"
+                            width="80" alt=""></a>
+                    
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarcollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <div class="navbar-nav">
+                            <a href="index.html">Home</a> <a href="about.html">About</a> <a href="products.html">Products</a> <a href="services.html">Services</a> <a href="registration.html">Sign up</a> <a href="help.html">Help</a> <a href="subscription.html">Subscribe</a>
+
+                        </div>
+                        <!-- search box -->
+                        <form action="" class="form-group d-flex">
+                            <input type="text" placeholder="Search Bags" class="form-control">
+                            <button type="submit" class="btn btn-success">Search</button>
+                        </form>
+                        <!-- nav item to the right -->
+                        <!-- <li class="nav-item"> -->
+                        <a href="login.html" class="nav-link ms-auto">Login</a>
+                        <!-- </li> -->
+                    </div>
+
+                </nav>
+            </div>
+        </section><br><br>
+        <!-- end of navbar -->
     <h3>Subscribe to our newsletter</h3>
     <form action="">
         <label for="Fn">Name:</label><br>
