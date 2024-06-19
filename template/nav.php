@@ -10,14 +10,14 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarcollapse">
                             <div class="navbar-nav">
-                                <a href="index.html" class="nav-item nav-link">Home</a>  
-                                <a href="clubjerseys.html" class="nav-item nav-link">Club Jerseys</a> 
-                                <a href="internationaljerseys.html" class="nav-item nav-link">International Jerseys</a>  
-                                <a href="retrojerseys.html" class="nav-item nav-link">Retro Jerseys</a>  
-                                <a href="basketballjerseys.html" class="nav-item nav-link">Basketball Jerseys</a> 
-                                <a href="specialjerseys.html" class="nav-item nav-link">Special Jerseys</a>
-                                <a href="registration.html" class="nav-item nav-link">Sign up</a>  
-                                <a href="subscription.html" class="nav-item nav-link">Subscribe</a>
+                                <a href="index.php" class="nav-item nav-link">Home</a>  
+                                <a href="clubjerseys.php" class="nav-item nav-link">Club Jerseys</a> 
+                                <a href="internationaljerseys.php" class="nav-item nav-link">International Jerseys</a>  
+                                <a href="retrojerseys.php" class="nav-item nav-link">Retro Jerseys</a>  
+                                <a href="basketballjerseys.php" class="nav-item nav-link">Basketball Jerseys</a> 
+                                <a href="specialjerseys.php" class="nav-item nav-link">Special Jerseys</a>
+                                <a href="registration.php" class="nav-item nav-link">Sign up</a>  
+                                <a href="subscription.php" class="nav-item nav-link">Subscribe</a>
 
                             </div>
                             
