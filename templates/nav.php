@@ -16,9 +16,9 @@
                                 <a href="retrojerseys.php" class="nav-item nav-link">Retro Jerseys</a>  
                                 <a href="basketballjerseys.php" class="nav-item nav-link">Basketball Jerseys</a> 
                                 <a href="specialjerseys.php" class="nav-item nav-link">Special Jerseys</a>
-                                <a href="registration.php" class="nav-item nav-link">Sign up</a>  
-                                <a href="subscription.php" class="nav-item nav-link">Subscribe</a>
-
+                                <a href="contact_us.php" class="nav-item nav-link">Contact</a>
+                                <a href="signup.php" class="nav-item nav-link">Sign up</a>
+                                <a href="signin.php" class="nav-item nav-link">Sign in</a>
                             </div>
                             
                         </div>
