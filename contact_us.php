@@ -9,12 +9,12 @@
 <body>
 <?php include_once("templates/nav.php")?>
     <form action="">
-        <label for="username">Username</label><br>
-        <input type="text" id="username" name="username" placeholder="username"> <br>
-        <label for="email">Email</label><br>
-        <input type="text" id="email" name="email" placeholder="email"><br>
-        <label for="Password"  id="password"> Password</label><br>
-        <input type="password" name="password" placeholder="password"> <br>
+        <label for="username">Username</label><br><br>
+        <input type="text" id="username" name="username" placeholder="username"> <br><br>
+        <label for="email">Email</label><br><br>
+        <input type="text" id="email" name="email" placeholder="email"><br><br>
+        <label for="Password"  id="password"> Password</label><br><br>
+        <input type="password" name="password" placeholder="password"> <br><br>
         
         <button type="submit">Submit</button>
     </form>

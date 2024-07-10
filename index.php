@@ -178,7 +178,7 @@
             </div>
         </section>
         <br>
-        <h4>La Liga Jerseys</h4>
+        <h4>La Liga Jerseys </h4>
         <section class="row text-center">
             <div class="col-md-2">
                 <div class="card">

@@ -9,7 +9,7 @@
 <body>
 <?php include_once("templates/nav.php")?>
 <h1>Club jerseys</h1>
-    <h4>Premier League</h4>
+    <h4>Premier League </h4>
     <section class="row text-center">
         <div class="col-md-2">
             <div class="card">

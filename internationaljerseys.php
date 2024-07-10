@@ -91,7 +91,7 @@
                 <img src="images/belgium away.jpg" class="img-fluid" alt="">
                 <div class="card-body"> 
                     <div class="card-title">
-                        <h5>Belgium Away Kit</h5>
+                        <h5>Belgium Away Kit </h5>
                     </div> 
                     <p>Cost: Ksh 1200.00</p> 
                 </div>
