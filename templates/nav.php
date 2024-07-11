@@ -13,8 +13,7 @@
                                 <a href="index.php" class="nav-item nav-link">Home</a>  
                                 <a href="clubjerseys.php" class="nav-item nav-link">Club Jerseys</a> 
                                 <a href="internationaljerseys.php" class="nav-item nav-link">International Jerseys</a>   
-                                <a href="basketballjerseys.php" class="nav-item nav-link">Basketball Jerseys</a> 
-                                <a href="specialjerseys.php" class="nav-item nav-link">Special Jerseys</a>
+                                <a href="basketballjerseys.php" class="nav-item nav-link">Basketball Jerseys</a>
                                 <a href="contact_us.php" class="nav-item nav-link">Contact</a>
                                 <a href="signup.php" class="nav-item nav-link">Sign up</a>
                                 <a href="signin.php" class="nav-item nav-link">Sign in</a>
