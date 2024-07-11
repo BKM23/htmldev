@@ -289,5 +289,99 @@
             </div>
         </div>
     </section>
+    <h2>La Liga Jerseys</h2>
+    <section class="row text-center">
+        <div class="col-md-2">
+            <div class="card">
+                <img src="images/madrid.jpeg" width="" height="240">
+                <!-- card body -->
+                <div class="card-body"> 
+                    <div class="card-title">
+                        <h5>Real Madrid Home</h5>
+                    </div> 
+                    <p>Cost: Ksh 1200.00</p> 
+                </div>
+                <!-- end of body -->
+                <div class="card-footer">
+                    <a href="" class="btn btn-danger w-75">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="images/madrid away.jpeg" class="img-fluid" alt="">
+                <div class="card-body"> 
+                    <div class="card-title">
+                        <h5>Real Madrid Away</h5>
+                    </div> 
+                    <p>Cost: Ksh 1200.00</p> 
+                </div>
+                <!-- end of body -->
+                <div class="card-footer">
+                    <a href="" class="btn btn-danger w-75">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="images/madrid third.jpeg" class="img-fluid" alt="">
+                <div class="card-body"> 
+                    <div class="card-title">
+                        <h5>Real Madrid Third</h5>
+                    </div> 
+                    <p>Cost: Ksh 1200.00</p> 
+                </div>
+                <!-- end of body -->
+                <div class="card-footer">
+                    <a href="" class="btn btn-danger w-75">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="images/barca.jpg" class="img-fluid" alt="">
+                <div class="card-body"> 
+                    <div class="card-title">
+                        <h5>Barcelona Home Kit</h5>
+                    </div> 
+                    <p>Cost: Ksh 1200.00</p> 
+                </div>
+                <!-- end of body -->
+                <div class="card-footer">
+                    <a href="" class="btn btn-danger w-75">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="images/barca away.jpg" class="img-fluid" alt="">
+                <div class="card-body"> 
+                    <div class="card-title">
+                        <h5>Barcelona Away Kit</h5>
+                    </div> 
+                    <p>Cost: Ksh 1200.00</p> 
+                </div>
+                <!-- end of body -->
+                <div class="card-footer">
+                    <a href="" class="btn btn-danger w-75">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="images/barca third.jpg" class="img-fluid" alt="">
+                <div class="card-body"> 
+                    <div class="card-title">
+                        <h5>Barcelona Third Kit</h5>
+                    </div> 
+                    <p>Cost: Ksh 1200.00</p> 
+                </div>
+                <!-- end of body -->
+                <div class="card-footer">
+                    <a href="" class="btn btn-danger w-75">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
