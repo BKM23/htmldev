@@ -1,7 +1,7 @@
 <section class="row"> 
                 <div class="col-md-12">
                     <nav class=" fixed-top navbar navbar-expand-lg bg-info navbar-light p-4">
-                        <a href="#" class="navbar-brand">Jersey Store <img src="images/jersey.png" height="40"
+                        <a href="index.php" class="navbar-brand">Jersey Store <img src="images/jersey.png" height="40"
                                 width="40" alt=""></a>
                         
                         <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
