@@ -185,7 +185,7 @@
                 <img src="images/spurs nba.jpeg" class="img-fluid" alt="">
                 <div class="card-body"> 
                     <div class="card-title">
-                        <h5>San Antonio Spurs Black</h5>
+                        <h5>San Antonio Spurs Black </h5>
                     </div> 
                     <p>Cost: Ksh 1200.00</p> 
                 </div>
