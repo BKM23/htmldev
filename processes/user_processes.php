@@ -22,7 +22,7 @@ if (isset($_POST["signup"])) {
     // Execute the SQL query
     if ($dbConn->query($user_insert) === TRUE) {
         echo "New record created successfully";
-        header("Location: ../sign-in.php");
+        header("Location: ../signin.php");
         exit();
     } else {
         die("Failed to insert the new record: " . $dbConn->error);
@@ -56,12 +56,12 @@ if (isset($_POST["signin"])) {
         } else {
             // Otherwise destroy the control session and redirect to sign-in
             unset($_SESSION["control"]);
-            header("Location: ../sign-in.php");
+            header("Location: ../signin.php");
             exit();
         }
     } else {
         // Otherwise redirect to sign-in
-        header("Location: ../sign-in.php");
+        header("Location: ../signin.php");
         exit();
     }
 }
@@ -71,7 +71,7 @@ if (isset($_POST["signout"])) {
     // Unset the session control
     unset($_SESSION["control"]);
     // Redirect to sign-in
-    header("Location: ../sign-in.php");
+    header("Location: ../signin.php");
     exit();
 }
 ?>
