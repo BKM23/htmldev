@@ -10,7 +10,7 @@ while($init < 7){
 ?>
 <h4>Do-while loop</h4>
 <?php
-//while loop
+//do-while loop
 $i = 0;
 do{
     print $i. "<br>";
